@@ -118,4 +118,3 @@ Default categories: Salary (INCOME), Food, Rent, Transportation, Entertainment, 
 - **H2 in-memory DB**: Easy to set up and deploy without needing an external database. Data resets on restart which is fine for a demo.
 - **Layered architecture**: Controller → Service → Repository. Keeps things clean and testable.
 - **Global exception handler**: All errors go through one place so responses are consistent.
-- **Default categories**: Seeded at startup via `CommandLineRunner`, stored with `user = null` to distinguish from custom categories.
